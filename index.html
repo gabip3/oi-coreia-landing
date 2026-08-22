@@ -47,7 +47,7 @@
     background:linear-gradient(180deg,#FBE7BE,#F5D390); color:#7a561b; font-weight:600; font-size:14px;
     padding:10px 20px; border-radius:999px; font-family:var(--font-display);
     box-shadow:0 8px 18px rgba(214,168,80,.34), inset 0 1px 0 rgba(255,255,255,.7); animation:floaty 4s ease-in-out infinite alternate; }
-  .hero-copy{ position:relative; z-index:2; }
+  .hero-copy{ position:relative; z-index:2; min-width:0; }
   .wordmark{ margin:14px 0 2px; }
   .wordmark .line{ display:flex; align-items:flex-end; gap:16px; }
   .logo-oi{ font-family:var(--font-display); font-size:clamp(66px,10vw,124px); font-weight:600; letter-spacing:-1px;
@@ -82,7 +82,7 @@
     background-size:cover; background-position:bottom center; background-repeat:no-repeat;
     -webkit-mask-image:linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.4) 22%, rgba(0,0,0,.85) 42%, #000 62%);
     mask-image:linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.4) 22%, rgba(0,0,0,.85) 42%, #000 62%); }
-  .scene{ position:relative; z-index:2; min-height:380px; display:flex; align-items:center; justify-content:center; }
+  .scene{ position:relative; z-index:2; min-width:0; min-height:380px; display:flex; align-items:center; justify-content:center; }
   .scene-glow{ position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:380px; height:380px; border-radius:50%; z-index:0;
     background:radial-gradient(60% 60% at 50% 45%, rgba(244,184,196,.3) 0%, rgba(241,233,250,.12) 55%, rgba(241,233,250,0) 76%);
     filter:blur(4px); }
@@ -306,7 +306,7 @@
     <!-- DOWNLOAD -->
     <section class="section download">
       <div class="eyebrow">Baixe agora</div>
-      <h2 class="h2">Pratique. Apaixone-se pela Coreia.</h2>
+      <h2 class="h2">Pratique. Apaixone‑se pela Coreia.</h2>
       <p class="sub">Grátis para instalar, sem anúncios, funciona offline depois do primeiro acesso.</p>
       <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=io.github.gabip3.oicoreia">▶ Baixar na Google Play</a>
       <div class="dl-note">🤖 Feito para Android</div>
